@@ -1,0 +1,54 @@
+
+ body{
+    background-color: #269ED9;
+}
+h3{
+    text-align: center;
+    font-weight: bold;
+}
+span{
+    font-size: 14px;
+    
+}
+label{
+    font-size: 20px;
+    
+}
+#txtbox{
+    width: 200px;
+    height: 20px;
+}
+#box1{
+    height: 165px;
+    width: 150px;
+    background-color: #31E14D;
+    margin-top: 50px;
+    text-align: center;
+    padding-top: 35px;
+}
+.box{
+    display: flex;
+}
+#box2{
+    height: 165px;
+    width: 150px;
+    background-color: #CDF14D;
+    margin-top: 10px;
+    padding-top: 35px;
+    text-align: center;
+}
+.text{
+    margin-left: 100px;
+    margin-top: 39px;
+}
+#input2{
+    height: 50px;
+}
+textarea:focus{
+    color: red;
+    background-color: #333;
+}
+p{
+    text-align: center;
+    padding-top: 20px;
+}       

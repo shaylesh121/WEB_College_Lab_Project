@@ -1,0 +1,24 @@
+
+table,td,tr,th{
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+.gery{
+	background-color: lightgray;
+}
+.tablecontainer{
+	width: 35%;
+}
+.maincontainer{
+	display: flex;
+	padding-bottom: 20px;
+}
+tr:hover{
+	background: red;
+}
+tr th{
+	background: none;
+}
+ul{
+	list-style-image: url('62.jpg');
+}

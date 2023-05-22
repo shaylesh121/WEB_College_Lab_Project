@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JavaScript Event Handling</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="scrpit.js"></script>
+    </head>
+    
+    <body>
+        <h3>There are many event among them some are done here</h3>
+        <button onclick="change()">OnClick Event</button> 
+        <span id="demo">I am span!</span><br><br>
+        <label>Enter your name: </label>
+        <input type="text" placeholder="Name please and Hit Enter" id="txtbox" onchange="enter()">
+
+        <div id="box1" onmouseover="mouseOver()" onmouseout="mouseOut()">
+            Mouse over and out
+        </div>
+        <div class="box">
+            <div id="box2" onmouseup="mouseUp()" onmousedown="mouseDown()">
+                Mouse Down and UP
+            </div>
+            <div class="text">
+                <h4>Write about youreself:</h4>
+                <textarea cols="30" rows="7" placeholder="write here...."></textarea>
+            </div>
+        </div>
+    </body>
+</html>
